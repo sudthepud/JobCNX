@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF03DAC5">
+
+    <TextView
+        android:id="@+id/Text_Job"
+        android:layout_width="167dp"
+        android:layout_height="96dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="top"
+        android:text="Job"
+        android:textColor="#FFFFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+        android:id="@+id/Text_CNX"
+        android:layout_width="167dp"
+        android:layout_height="96dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="top"
+        android:text="CNX"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+        android:id="@+id/item_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_work_24"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
